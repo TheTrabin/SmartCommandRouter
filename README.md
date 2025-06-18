@@ -7,13 +7,13 @@ have not tested on alpha or beta for version 1.0.0 and up
 If you do, please let me know how it goes at
 [Cobalt Rogues Discord](https://www.discord.gg/EkUmf9SJVk)
 
-[requirements](#requirements-req)
-[JSON Loader](#json-loader-jsonloader)
-[Folder Loader](#folder-loader)
-[features](#features-features)
-[commands](#commands-commands)
-[json](#json)
-[More from Trabin](#more)
+- [requirements](#requirements-req)
+- [JSON Loader](#json-loader-jsonloader)
+- [Folder Loader](#folder-loader)
+- [features](#features-features)
+- [commands](#commands-commands)
+- [json](#json)
+- [More from Trabin](#more)
 
 ## File Contents
 
@@ -23,43 +23,49 @@ If you do, please let me know how it goes at
 ### 7-Zip file - The Assets Brick
 
 - Import folder
-    This folder requires you to either import via Streamer.bot or via OBS
-        - 1 txt file with the long string import code for Streamer.bot
-        - 1 `smartcommandrouter.sb` that you should be able to drag and drop into the import box in Streamer.bot
-        - 1 OBS json Source Copy compatible file [importing for OBS](#optional)
+
+This folder requires you to either import via Streamer.bot or via OBS
+
+- 1 txt file with the long string import code for Streamer.bot
+- 1 `smartcommandrouter.sb` that you should be able to drag and drop into the import box in Streamer.bot
+- 1 OBS json Source Copy compatible file [importing for OBS](#optional)
 
 - Data folder
-    This folder houses all the stuff the command router uses
+
+This folder houses all the stuff the command router uses
 
 - Data/Attribution
-    The contents of this folder is for where the content comes from,
-    and where to find more of their content. 
-    They made some of the stuff in there, so.
+
+The contents of this folder is for where the content comes from,
+and where to find more of their content. 
+They made some of the stuff in there, so.
 
 - Data/Commands
 
-    The contents of this folder is where the JSON commands are dropped into and where the
-    JSON Loader will load commands that correlate to those that are present in Streamer.bot.
-    The commands don't have any security on them and are active regardless of level of connection.
-    Viewer or mod or anyone can use these.
+The contents of this folder is where the JSON commands are dropped into and where the
+JSON Loader will load commands that correlate to those that are present in Streamer.bot.
+The commands don't have any security on them and are active regardless of level of connection.
+Viewer or mod or anyone can use these.
 
 - Data/images
 
-    Houses more than just images
-    This is what the inline loader relies on for a lot of content,
-    such as having a folder in images that contains:
+Houses more than just images
+This is what the inline loader relies on for a lot of content,
+such as having a folder in images that contains:
 
-    > - pictures,
-    > - sounds,
-    > - or even a text file named lines.txt to allow messages to show up on screen
+- pictures,
+- sounds,
+- or even a text file named lines.txt to allow messages to show up on screen
 
 - Data/restrictions
-    If you want to restrict commands based on if a game or tag is present
+
+If you want to restrict commands based on if a game or tag is present
 
 - Data/sounds
-    Contains sounds for the sound actions.
-    Put more sounds in them to make them play randomly
-    when the command associated is triggered
+
+Contains sounds for the sound actions.
+Put more sounds in them to make them play randomly
+when the command associated is triggered
 
 ## Requirements {#req}
 
