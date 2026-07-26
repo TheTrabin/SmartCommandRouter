@@ -5,7 +5,7 @@
 built in Streamer.bot v0.2.8
 have not tested on alpha or beta for version 1.0.0 and up
 If you do, please let me know how it goes at
-[Cobalt Rogues Discord](https://www.discord.gg/EkUmf9SJVk)
+[Arcane Ember Discord](https://www.discord.gg/yMcgefAQJt)
 
 - [requirements](#requirements-req)
 - [JSON Loader](#json-loader-jsonloader)
